@@ -67,7 +67,7 @@ a{
 .site-navigation a { transform: translateY(1px); text-decoration: none; color: var(--text-header-color); font-weight: 600; }
 /* .site-navigation a:hover, .site-nav a:focus-visible { text-decoration: underline; text-underline-offset: 0.4rem; } */
 .menu-toggle { display: none; }
-.button { display: inline-flex; gap: 1.7rem; align-items: center; padding: .85rem 1.2rem; text-decoration: none; font: .7rem Arial, sans-serif; letter-spacing: .13em; text-transform: uppercase; border: 1px solid; }
+/* .button-login { display: inline-flex; gap: 1.7rem; align-items: center; padding: .85rem 1.2rem; text-decoration: none; font: .7rem Arial, sans-serif; letter-spacing: .13em; text-transform: uppercase; border: 1px solid;} */
 .site-navigation .button-login {display: flex; justify-content: center; margin-left: auto; margin-top: auto; border-radius: 6px; background: #fbfaf5; width: 6.5rem; height: 1.5rem; border-color: (rgba(0 ,0 ,0 , 0.2)); color: #000000; }
 
 .hero-content { display: flex; flex-direction: column; justify-content: center; align-items: center; text-align: center; padding: 0 1.25rem; margin-top: 6rem; color: var(--text-header-color); }
@@ -88,3 +88,28 @@ a{
 .card:hover { transform: translateY(-5px); box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); cursor: pointer; }
 .card:focus-within { outline: 2px solid var(--main-theme-color); outline-offset: 4px; }
 
+button{
+    padding: 0.25rem 0.25rem;
+    border: 1px solid #e7dcc4;
+    border-radius: 6px;
+    background: var(--main-theme-color);
+    color: #F0FFF0;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.site-navigation .button-login {
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-left: auto;
+    margin-top: 0.5rem;
+    margin-right: 1.5rem;      
+    border-radius: 6px;
+    background: #fbfaf5;
+    width: 6.5rem;
+    height: 2rem;
+    border: 1px solid rgba(0, 0, 0, 0.2); 
+    color: #000000; 
+}
