@@ -52,10 +52,10 @@ Two of our biggest comparators are Google Maps and Snapchat's Snap Map. Google M
 ## Scaled Feature List
 | Feature               | Purpose                                                            | Owner        |
 |-----------------------|--------------------------------------------------------------------|--------------|
-| User Profiles Page    | Displays a webpage of an individual user's profile                 | Shan Jeofry  |
-| Login Page            | A login page including "remember me" and "forgot password" options | Abbas Syed   |
-| HTML / CSS Structure  | Base framework and styling for entire website                      | Ethan Jallim |
-| Searching / Filtering | Search / filter / sort POIs                                        | Hasan Nawaz  |
+| User Profiles Page, <br> Location Details Page | Displays a webpage of an individual user's profile <br> Displays detail location of description as well posted reviews  | Shan Jeofry  |
+| Login Page,<br> User Acounts|login page including "remember me" and "forgot password" options <br> User accounts to have enhanced user experience | Abbas Syed |
+| HTML / CSS Structure <br> Rating and Review Form  | Base framework and styling for entire website. <br> Users will be able to post reviews about locations |Ethan Jallim |
+| Searching / Filtering | Search / filter / sort for POIs                                        | Hasan Nawaz  |
 
 
 ## Wireframes
