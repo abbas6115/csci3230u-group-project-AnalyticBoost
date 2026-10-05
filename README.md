@@ -1,11 +1,16 @@
-# CSCI3230U Group Project
+# CSCI3230U Group Project - Naviscape
 
-Team Members & Roles
----
-Abbas Syed - Coordinator / Facilitator
+Naviscape is an online interactive web app about incorporating navigation planning and collaboration into one service.
+
+To get started, view our [Project Proposal](PROPOSAL.md).
+
+Check out our prototype source code in `src/`.
+
+### Team Members
+Abbas Syed - Technical Manager
+
 Hasan Nawaz - Data Manager
-Ethan Jallim - Front End Developr
-Shan Jeofry - Back end Developer
 
-API - Google Places API
-(https://developers.google.com/maps/documentation/places/web-service/overview)[https://developers.google.com/maps/documentation/places/web-service/overview]
+Ethan Jallim - Frontend Developer
+
+Shan Jeofry - Backend Developer
