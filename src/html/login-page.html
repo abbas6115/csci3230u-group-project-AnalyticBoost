@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Naviscape - Login</title>
+        <link rel="stylesheet" href="../styles/style.css"/>         <!-- general website styling -->
+        <link rel="stylesheet" href="../styles/login-styles.css">   <!-- page-specific login styles -->
+    </head>
+    <body>
+        <!-- Website header -->
+        <header class="site-header">
+            <a class="website-brand" href="/src/html/index.html">Naviscape</a>
+        </header>
+
+        <main>
+            <div class="item-detail-body login-container">
+                <section class="login-header">
+                    <h1>Account Login</h1>
+                </section>
+
+                <form class="login-form" action="#" method="post">
+                    <div class="form-group">
+                        <label for="username">Email or Username</label>
+                        <input type="text" id="username" name="username" placeholder="Enter your e-mail or username..." required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                    </div>
+
+                    <div class="form-options">
+                        <label class="remember-me">
+                            <input type="checkbox" name="remember">
+                            <span>Remember Me</span>
+                        </label>
+                        <a href="./forgot-password.html" class="forgot-password">Forgot password?</a>
+                    </div>
+
+                    <button type="submit" class="login-button">Log In</button>
+                </form>
+            </div>
+        </main>
+        
+    </body>
+</html>
