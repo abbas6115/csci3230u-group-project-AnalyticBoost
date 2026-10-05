@@ -45,6 +45,7 @@ body {
 .item-detail-body{
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column; 
 
     margin-top: 5vh;
     margin-left: 15vw;
