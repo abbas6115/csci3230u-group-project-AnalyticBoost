@@ -58,7 +58,7 @@ body {
 
 .attraction-details img{
     width: auto;
-    height: var(--img-detail-size);
+    height: 10rem;
     border-radius: 10px;
 }
 
