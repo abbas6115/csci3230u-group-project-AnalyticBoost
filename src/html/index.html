@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="PLACEHOLDER">
+        <meta name="theme-color" content="#1f2f26">
+        <title>Naviscape - Home</title>
+        <link rel="stylesheet" href="../styles/index-style.css">
+    </head>
+    <body>
+        <!-- Website header -->
+        <header class="site-header">
+            <a class="website-brand" href="index.html" aria-label="AnalyticBoost home">
+                Naviscape
+            </a>
+            <nav id="site-navigation" class="site-navigation" aria-label="Main navigation">
+                <a class="button-login" href=login-page.html aria-hidden="true">Log In</a>
+            </nav>
+        </header>
+
+        <main id="top">
+            <section class="hero">
+                <div class="hero-content">
+                    <h1>Welcome to Naviscape</h1>
+                    <p>A brand new way to find the best places all over!</p>
+                    <form class="search-content" action="/search" method="get">
+                        <input type="search" class="search-input" name="q" placeholder="Search for attractions..." aria-label="Search for attractions">
+                        <button type="submit" class="search-button">Search</button>
+                    </form>
+                </div>
+            </section>
+
+            <section class="display-card">
+                <div class="card">
+                    <img src="../../images/memorial-park.jpg" alt="Attraction 1" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <a href="https://maps.app.goo.gl/gqbaBrvbkUGMTpo18" class="card-link">Memorial Park</a>
+                        </h3>
+                        <p class="card-text">
+                            111 Dundas St E, London, ON L1N 4C8 | Ontario, Canada
+                        </p>
+                    </div>
+                </div>
+        
+                <div class="card">
+                    <img src="../../images/on-tech.jpg" alt="Attraction 2" class="card-image">
+                    <div class="card-content">
+                        <h3 class="card-title">
+                            <a href="https://maps.app.goo.gl/y6AatCySADk6Cjkj9" class="card-link">Ontario Tech University</a>
+                        </h3>
+                        <p class="card-text">
+                            2000 Simcoe St N, Oshawa, L1G 0C5 | Ontario, Canada
+                        </p>
+                    </div>
+                </div>
+        </main>
+    </body>
+</html>
