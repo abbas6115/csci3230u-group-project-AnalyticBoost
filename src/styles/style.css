@@ -1,0 +1,79 @@
+:root {
+    --main-theme-color: #cb1b0b;           /* background color for website head*/
+    --text-header-color: #F0FFF0;   /* text color for website header*/
+    --header-font-size: 2rem;          /* Font size for Website Header*/
+
+    --body-text-color: #07020D;
+    --body-border-color: #929696;
+
+    --img-detail-size: 20vh;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+  color: #222;
+}
+
+.site-header{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--main-theme-color);
+
+    padding: .5rem;
+    padding-left: 3rem;
+
+    justify-content: left;
+    align-items: center;
+}
+
+.website-brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #f2f2f2; 
+    font-weight: bold;
+    font-size: var(--header-font-size);
+    text-decoration: none;
+}
+
+.item-detail-body{
+    display: flex;
+    flex-wrap: wrap;
+
+    margin-top: 5vh;
+    margin-left: 15vw;
+    margin-right: 15vw;
+
+    padding: 1rem;
+    border: var(--body-border-color) solid 1px;
+    border-radius: 10px;
+    color: var(--body-text-color); 
+}
+
+.attraction-details img{
+    width: auto;
+    height: 10rem;
+    border-radius: 10px;
+}
+
+
+.review-list{
+    list-style: none;
+
+}
+
+button{
+    padding: 0.5rem 1rem;
+    border: 1px solid #e7dcc4;
+    border-radius: 6px;
+    background: var(--main-theme-color);
+    color: #F0FFF0;
+    cursor: pointer;
+    margin-left: auto;
+}
