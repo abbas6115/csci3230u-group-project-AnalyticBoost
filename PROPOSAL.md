@@ -48,6 +48,7 @@ Sample data shape of Google Places API's Place Photos:
 ## Comparators
 Two of our biggest comparators are Google Maps and Snapchat's Snap Map. Google Maps is obviously unbeatable in general navigation, and Snap Map is similar in the fact that it displays a navigable globe map but it includes being able to see your friends' locations (who opt to do so). Naviscape differs in actually being able to highlight and share locations with friends in real time.
 
+
 ## Scaled Feature List
 | Feature               | Purpose                                                            | Owner        |
 |-----------------------|--------------------------------------------------------------------|--------------|
@@ -55,3 +56,12 @@ Two of our biggest comparators are Google Maps and Snapchat's Snap Map. Google M
 | Login Page            | A login page including "remember me" and "forgot password" options | Abbas Syed   |
 | HTML / CSS Structure  | Base framework and styling for entire website                      | Ethan Jallim |
 | Searching / Filtering | Search / filter / sort POIs                                        | Hasan Nawaz  |
+
+
+## Wireframes
+
+![Home Page Wireframe](images/wireframes/home-page.jpg)
+
+![Login Page Wireframe](images/wireframes/login-page.jpg)
+
+![Display Page Wireframe](images/wireframes/display-page.jpg)
